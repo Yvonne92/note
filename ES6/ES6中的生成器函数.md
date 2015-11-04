@@ -1,5 +1,5 @@
-#####ES6中的生成器函数
-####定义生成器函数
+##ES6中的生成器函数
+###定义生成器函数
 在ES6中定义一个生成器函数，在function后跟上[*]即可
 ```JavaScript
 function* foo1() { };
@@ -38,7 +38,7 @@ o.next();//Error:Generator has already finished
 ```
 可以看到，每次调用next方法，都会得到当前yield的值。函数执行完之后，再调用next方法会产生异常。
 
-####斐波那契数列
+###斐波那契数列
 在其他语言中，生成器函数和yield通常会被用来演示生成斐波那契数列(前两个数字都是1，除此之外任何数字都是前两个数之和的数列)。下面是JavaScript的生成器函数版本：
 ```JavaScript
 function* fab(max){
