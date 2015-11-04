@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<script>
+    //数组原型方法判断元素是否在数组中
+    Array.prototype.inArray=function(){
+        for (var i = 0; i < this.length; i++) {
+            if (eq == this[i])
+            {
+                var j=this.indexOf(this[i]);
+                return j;
+            }
+        }
+        return -1;
+    };
+    var eq;
+    var arr=new Array();
+  var y=arr.inArray(eq);
+    //数组原型方法判断数组中最大值
+    Array.prototype.max=function(){
+        var i,max=this[0];
+        for(i=0;i<this.length;i++){
+            if(max<this[i])
+                max=this[i];
+        }
+        return max;
+    }
+    var x=new Array();
+    var y= x.max()
+    //数组原型方法判断数组中最小值
+    Array.prototype.min=function(){
+        var i,min=this[0];
+        for(i=0;i<this.length;i++){
+            if(this[i]<min)
+            min=this[i];
+        }
+        return min;
+    }
+    var x=new Array();
+    var y= x.min()
+</script>
+</body>
+</html>
