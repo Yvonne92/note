@@ -226,8 +226,3 @@ function ProductController(eventAggregator,productRepository){
 
 
 
-
-
-```JavaScript
-
-```
