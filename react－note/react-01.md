@@ -45,7 +45,7 @@
 ```JSX
 var style={
 	color:'#ff0000',
-	ontSize:'14px'
+	fontSize:'14px'
 };
 
 var node =<div style={style}>HelloWorld.</div>;
