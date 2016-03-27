@@ -54,7 +54,7 @@ var SaveButton=React.createClass({
 ```
 #### PropTypes(非强制性)
 
-通过在组件中定义一个配置对象 React提供了一种炎症props的方式：
+通过在组件中定义一个配置对象 React提供了一种验证props的方式：
 ```JSX
 var SurveyTableRow=React.createClass({
      propTypes:{
