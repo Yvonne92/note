@@ -56,7 +56,7 @@
 #### 存在期
 此时组件已经渲染好并且用户可以交互 随着用户改变组件或者整个应用的state便会有新的state流入组件库 并且我们将会获得操作它的机会
 ##### **componentWillReceiveProps**
-在任意时刻组件的props都可以通过父辈组件来更改 出现这种情况时 componentWill－ReceiveProps方法会被调用 你将获得更改props对象及更新state的机会
+在任意时刻组件的props都可以通过父辈组件来更改 出现这种情况时 componentWillReceiveProps方法会被调用 你将获得更改props对象及更新state的机会
 ```JSX
 componentWillReceiveProps:function(nextProps){
      if(nextProps.checked !== undefined){
